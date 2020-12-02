@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Form</title>
+
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+<section class="mainform">
+
+    <div class="container">
+        <h1>
+            Gym 2020 Form
+        </h1>
+
+        <hr class="b-hr">
+        
+        <form action="#">
+            <div class="name">
+                <label for="Fullname">Full Name</label>
+                <input type="text" placeholder="Enter your first name">
+
+                <!-- <label for="Lastname">Last Name</label>
+                <input type="text" placeholder="Enter your last name"> -->
+            </div>
+            <div class="phoneno">
+                <label for="phonenumber">Phone No.</label>
+                <input type="tel" name="tel" id="tel" placeholder="Enter your phone number">
+            </div>
+            <div class="age">
+                <label for="age">D.O.B </label>
+                <input type="date" name="age" id="age">
+            </div>
+            <div class="gender">
+                <label for="gender">Gender</label>
+                <input type="radio">Male
+                <input type="radio">Female
+                <input type="radio">Others
+            </div>
+            <div class="goal">
+                <label for="goal">Goal</label>
+                <input type="checkbox"> Weightloss
+                <input type="checkbox"> Bodybuilding
+                <input type="checkbox"> Yoga
+                <input type="checkbox"> Full body fitness
+            </div>
+
+            <div class="address">
+                <label for="address">Address </label>
+                <textarea name="address" placeholder="Enter your address here" id="address" cols="60"
+                    rows="10"></textarea>
+            </div>
+
+            
+        </form>
+        <div class="submit">
+            <!-- <input type="submit">
+            <input type="reset"> -->
+            <a href="#">Submit</a>
+            <a href="#">Reset</a>
+        </div>
+    </div>
+
+</body>
+
+</html>
